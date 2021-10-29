@@ -1,11 +1,11 @@
-let velocidade;
-let deslocamento;
-let tempo;
+let velocity
+let displacement
+let changeInTime
 
-deslocamento = prompt ("Distância percorrida");
+displacement = prompt('Distância percorrida')
 
-tempo = prompt ("Tempo");
+tempo = prompt('Tempo')
 
-velocidade = deslocamento/tempo;
+velocity = displacement / changeInTime
 
-alert (`Velocidade Média: ${velocidade}`);
+alert(`Velocidade Média: ${velocity}`)

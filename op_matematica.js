@@ -1,8 +1,8 @@
-let totalAulas;
-let minimoAulas;
+let totalLessons
+let minimumLessons
 
-totalAulas = prompt ("Total de Aulas");
+totalAulas = prompt('Total de Aulas')
 
-minimoAulas = totalAulas *0.75;
+minimumLessons = totalLessons * 0.75
 
-alert(`Mínimo para ser aprovado: ${minimoAulas} `);
+alert(`Mínimo para ser aprovado: ${minimumLessons} `)

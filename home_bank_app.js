@@ -1,25 +1,25 @@
-let agencia;
-let conta;
-let cartao;
-let emprestimos;
-let negativado;
+let agency
+let account
+let card
+let loans
+let credit
 
-agencia = prompt("Agência: ");
-conta = prompt("Conta: ");
-cartao = prompt("Número do Cartão: ");
-emprestimos = prompt("Empréstimos: ");
-negativado = prompt("O nome consta no SPC? ")
+agency = prompt('Agência: ')
+account = prompt('Conta: ')
+card = prompt('Número do Cartão: ')
+loans = prompt('Empréstimos: ')
+credit = prompt('O nome consta no SPC? ')
 
-if (negativado =="Sim" || negativado== "sim") {
-    negativado = true;  
-}else if(negativado == "Não" || negativado=="não"){
-    negativado = false;
-}else{
-    negativado = "Erro ao ler situação cadastral!"
+if (credit == 'Sim' || credit == 'sim') {
+  credit = true
+} else if (credit == 'Não' || credit == 'não') {
+  credit = false
+} else {
+  credit = 'Erro ao ler situação cadastral!'
 }
 
-alert(`Agência: ${agencia} \n
-Conta: ${conta} \n
-Número do Cartao: ${cartao} \n
-Empréstimos: ${emprestimos} \n
-Negativado : ${negativado}`);
+alert(`Agência: ${agency} \n
+Conta: ${account} \n
+Número do Cartao: ${card} \n
+Empréstimos: ${loans} \n
+Negativado : ${credit}`)
